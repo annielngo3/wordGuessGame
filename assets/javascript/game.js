@@ -80,7 +80,7 @@ function evaluateGuess(letter) {
     }
 };
 
-//Checks for a win ***
+//Checks for a win 
 function checkWin() {
     if (guessingWord.indexOf("_") === -1) {
         document.getElementById("youwin-image").style.cssText = "display:block";

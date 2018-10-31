@@ -15,9 +15,10 @@ h1,h2,h3,h4,h5,h6 {
     background-color: rgba(red, green, blue, alpha);
 }
 
-#title-image, #gameover-image, #youwin-image {
+#gameover-image, #youwin-image {
     display: block;
     margin: 0 auto;
+    padding: 10px;
 }
 
 #currentWord {
@@ -28,6 +29,13 @@ h1,h2,h3,h4,h5,h6 {
 #gameover-image,
 #youwin-image {
     display:none;
+}
+
+#title-image {
+    height: 100px;
+    width: 500px;
+    padding: 2px 5px 0px 0px;
+
 }
  
 .gameplay-column {
